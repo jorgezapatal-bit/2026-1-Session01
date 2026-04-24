@@ -14,6 +14,11 @@ public class Operaciones {
     private int operador1;
     private int operador2;
     
+    public Operaciones() {
+    this.operador1 = 0;
+    this.operador2 = 0;
+    }
+    
     public Operaciones(int operador1, int operador2){
         this.operador1 = operador1;
         this.operador2 = operador2;
